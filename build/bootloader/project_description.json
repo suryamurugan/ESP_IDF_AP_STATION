@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/suryamurugan/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/suryamurugan/esp/station/build/bootloader",
+    "config_file":        "/home/suryamurugan/esp/station/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.1-dev-1086-g93a8603",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/suryamurugan/esp/esp-idf/components/freertos/Kconfig;/home/suryamurugan/esp/esp-idf/components/esp32/Kconfig;/home/suryamurugan/esp/esp-idf/components/spi_flash/Kconfig;/home/suryamurugan/esp/esp-idf/components/esp_common/Kconfig;/home/suryamurugan/esp/esp-idf/components/efuse/Kconfig;/home/suryamurugan/esp/esp-idf/components/log/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/suryamurugan/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/suryamurugan/esp/esp-idf/components/partition_table/Kconfig.projbuild;/home/suryamurugan/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "freertos", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/suryamurugan/esp/esp-idf/components/bootloader", "/home/suryamurugan/esp/esp-idf/components/bootloader_support", "/home/suryamurugan/esp/esp-idf/components/efuse", "/home/suryamurugan/esp/esp-idf/components/esp32", "/home/suryamurugan/esp/esp-idf/components/esp_common", "/home/suryamurugan/esp/esp-idf/components/esp_rom", "/home/suryamurugan/esp/esp-idf/components/esptool_py", "/home/suryamurugan/esp/esp-idf/components/freertos", "/home/suryamurugan/esp/esp-idf/components/log", "/home/suryamurugan/esp/esp-idf/components/bootloader/subproject/main", "/home/suryamurugan/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/suryamurugan/esp/esp-idf/components/partition_table", "/home/suryamurugan/esp/esp-idf/components/soc", "/home/suryamurugan/esp/esp-idf/components/spi_flash", "/home/suryamurugan/esp/esp-idf/components/xtensa", "" ]
+}
